@@ -24,7 +24,7 @@ public class Splash extends Activity{
 			public void run(){
 				try{
 					// Try something
-					sleep(5000);
+					sleep(2500);
 					// Here we can start a new activity, but we do it in finally
 				} catch (InterruptedException e){
 					// Debug messages
