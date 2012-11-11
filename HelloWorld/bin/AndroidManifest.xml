@@ -26,7 +26,7 @@
             android:name=".MainActivity"
             android:label="@string/title_activity_main" >
             <intent-filter>
-                <action android:name="com.example.helloworold.MAINACTIVITY" />
+                <action android:name="com.example.helloworld.MAINACTIVITY" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>

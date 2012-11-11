@@ -1,7 +1,6 @@
 package com.example.helloworld;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.os.Bundle;
 
 public class Splash extends Activity{
@@ -18,23 +17,13 @@ public class Splash extends Activity{
 			public void run(){
 				try{
 					// Try something
-					sleep(2500);
-					// Here we can start a new activity, but we do it in finally
 				} catch (InterruptedException e){
 					// Debug messages
-					e.printStackTrace();
 				} finally{
-					// After we tried (succeeded or not), do this
-					
-					// Define an intent with actionname
-					Intent openMainScreen = new Intent("com.example.helloworld.MAINACTIVITY");
-					// Then we can start an activity
-					startActivity(openMainScreen);
-					
+					// After we tried, do this
 				}
 			}
 		};
-		timer.start();
-	}	
+	}	timer.start();
 	
 }
