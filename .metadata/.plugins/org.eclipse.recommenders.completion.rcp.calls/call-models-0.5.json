@@ -1,0 +1,12 @@
+{
+  "/home/wilhelmsen/Documents/Projects/Android/HelloWorld/gen": {
+    "location": "/home/wilhelmsen/Documents/Projects/Android/HelloWorld/gen",
+    "status": "UNRESOLVED",
+    "error": "No class path info available for \u0027/home/wilhelmsen/Documents/Projects/Android/HelloWorld/gen\u0027. Skipped."
+  },
+  "/home/wilhelmsen/android-sdks/platforms/android-16/android.jar": {
+    "location": "/home/wilhelmsen/android-sdks/platforms/android-16/android.jar",
+    "status": "UNRESOLVED",
+    "error": "No call model found for \u0027/home/wilhelmsen/android-sdks/platforms/android-16/android.jar\u0027. Neither fingerprint \u0027f2dca2ead97466b417a99823b658e05e0c3c4832\u0027 nor symbolic name \u0027android\u0027 are known."
+  }
+}

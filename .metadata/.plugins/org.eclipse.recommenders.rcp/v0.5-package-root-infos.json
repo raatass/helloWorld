@@ -1,0 +1,28 @@
+[
+  {
+    "symbolicName": "android-support-v4",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "612846c9857077a039b533718f72db3bc041d389",
+    "jarFileModificationDate": "2012-11-10T16:37:19+01:00",
+    "location": "/home/wilhelmsen/Documents/Projects/Android/HelloWorld/libs/android-support-v4.jar",
+    "javaRuntime": false
+  },
+  {
+    "symbolicName": "android",
+    "version": {
+      "major": -1,
+      "minor": -1,
+      "micro": -1,
+      "qualifier": ""
+    },
+    "jarFileFingerprint": "f2dca2ead97466b417a99823b658e05e0c3c4832",
+    "jarFileModificationDate": "2012-11-10T13:44:09+01:00",
+    "location": "/home/wilhelmsen/android-sdks/platforms/android-16/android.jar",
+    "javaRuntime": false
+  }
+]
