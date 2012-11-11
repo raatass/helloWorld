@@ -34,7 +34,7 @@ public class Splash extends Activity{
 					// After we tried (succeeded or not), do this
 					
 					// Define an intent with actionname
-					Intent openMainScreen = new Intent("com.example.helloworld.MENU");
+					Intent openMainScreen = new Intent("com.example.helloworld.MAINACTIVITY");
 					// Then we can start an activity
 					startActivity(openMainScreen);
 					

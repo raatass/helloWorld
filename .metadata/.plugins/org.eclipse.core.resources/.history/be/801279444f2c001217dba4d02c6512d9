@@ -20,7 +20,6 @@ public class Splash extends Activity{
 		// create a mediaplayer object from global introSong
 		introSong = MediaPlayer.create(Splash.this, R.raw.splash);
 		introSong.start();
-		
 		Thread timer = new Thread(){
 			public void run(){
 				try{
@@ -34,7 +33,7 @@ public class Splash extends Activity{
 					// After we tried (succeeded or not), do this
 					
 					// Define an intent with actionname
-					Intent openMainScreen = new Intent("com.example.helloworld.MENU");
+					Intent openMainScreen = new Intent("com.example.helloworld.MAINACTIVITY");
 					// Then we can start an activity
 					startActivity(openMainScreen);
 					
